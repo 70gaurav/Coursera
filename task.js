@@ -27,3 +27,9 @@ server.listen(port);
 
 
 //Completed 
+//multer
+//validation
+//logger
+//log4js
+//MySQL
+//promise
