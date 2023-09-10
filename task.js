@@ -35,3 +35,25 @@ server.listen(port);
 //promise
 //signNow.js
 //nodemailer
+
+
+
+
+// Create a promise
+const myPromise = new Promise((resolve, reject) => {
+  // Asynchronous operation or logic
+  // Resolve the promise when successful
+  resolve("Promise resolved successfully");
+
+  // Reject the promise when an error occurs
+  // reject("Promise rejected with an error");
+});
+
+// Using the promise
+myPromise
+  .then(result => {
+    console.log(result); // This will be executed if the promise is resolved
+  })
+  .catch(error => {
+    console.error(error); // This will be executed if the promise is rejected
+  });
