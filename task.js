@@ -40,6 +40,8 @@ server.listen(port);
 //node debugger 
 //microservices
 //git commands 
+//docker container
+//kubernetes
 
 
 
