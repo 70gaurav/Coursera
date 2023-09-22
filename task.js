@@ -24,9 +24,8 @@ console.log('server listening on port: ' + port);
 server.listen(port);
 
 // Lab1 week1
-//week 2 completed
 
-//Completed 
+
 //multer
 //validation
 //logger
@@ -45,6 +44,7 @@ server.listen(port);
 //pipeline 
 //pagination 
 //UUID
+
 
 // Create a promise
 const myPromise = new Promise((resolve, reject) => {
