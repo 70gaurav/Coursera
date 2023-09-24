@@ -142,9 +142,7 @@ Start your React Native app:
 arduino
 Copy code
 npx react-native run-android
-This command will build your app and launch it in the Android emulator. Make sure your emulator is running before executing this command.
 
-Congratulations! You've successfully set up React Native on your Windows machine. You can now start developing your React Native applications.
 
 
 
