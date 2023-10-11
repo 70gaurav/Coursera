@@ -24,25 +24,7 @@ console.log('server listening on port: ' + port);
 server.listen(port);
 
 
-//multer
-//validation
-//logger
-//log4js
-//MySQL
-//promise
-//signNow.js
-//nodemailer
-//moment
-//react debugger
-//node debugger 
-//microservices
-//git commands 
-//docker container
-//kubernetes
-//pipeline 
-//pagination 
-//UUID
-//native
+
 
 
 // Create a promise
