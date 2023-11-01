@@ -125,4 +125,44 @@ npx react-native run-android
 
 
 
+swagger
+
+const express = require('express');
+const app = express();
+const swaggerJSDoc = require('swagger-jsdoc');
+const swaggerUI = require('swagger-ui-express');
+
+// Swagger definition
+const swaggerDefinition = {
+  info: {
+    title: 'My API',
+    version: '1.0.0',
+    description: 'API documentation for My API',
+  },
+  host: 'localhost:3000', // Replace with your host and port
+  basePath: '/',
+};
+
+const options = {
+  swaggerDefinition,
+  apis: ['*.js'], // Replace with the paths to your API routes
+};
+
+const swaggerSpec = swaggerJSDoc(options);
+
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
+
+// Your API routes go here
+app.get('/', (req, res) => {
+  res.send('Hello, Swagger!');
+});
+
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
+
+
+
 
