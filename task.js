@@ -123,7 +123,7 @@ arduino
 Copy code
 npx react-native run-android
 
-
+// swagger setup for 2.0
 
 swagger
 
