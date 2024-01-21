@@ -48,7 +48,7 @@ myPromise
 
 
 // 0auth
-// ipc renderer
+
 
 
 Setting up React Native on a Windows system involves several steps. Here's a step-by-step guide to help you get started:
